@@ -1,0 +1,64 @@
+# Arquivos e diretórios gerados
+target/
+build/
+out/
+bin/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Arquivos temporários
+*.zip
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Arquivos de ambiente
+.env
+.env.local
+*.secret
+
+# Logs
+*.log
+
+# Arquivos JAR, WAR, etc.
+*.jar
+*.war
+*.ear
+
+# IDEs
+### Eclipse/STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
